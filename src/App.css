@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline:none;
+}
+
+::before,
+::after
+{box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  line-height:1.5;
+}
+
+:root{
+  --main-color:#eaa023;
+  --dark:#000;
+  --dark-light:#191f3a;
+  --white:#ffffff;
+  --white-light:#c8c8c8;
+  --shadow: 0 0 15px rgba(0,0,0, 0.25);
+  --cursive-font: 'Dancing Script', cursive;
+  scroll-behavior: smooth;
+
+}
+a{
+  text-decoration:none;
+  list-style:none;
+}
+
+.container{
+  max-width:1170px;
+  margin:auto;
+}
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+ 
+}
+.jcsb{
+  justify-content:space-between;
+}
+.alc{
+  align-items:center;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
