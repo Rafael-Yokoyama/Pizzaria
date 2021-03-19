@@ -1,6 +1,11 @@
+import React from 'react';
 import styled from 'styled-components';
 
+
 import img from "../../img/pizza.png";
+import { Button } from '../Button';
+
+
 const Container = styled.div`
 overflow: hidden;
   display: flex;
@@ -67,50 +72,6 @@ h1{
     font-family:var(--cursive-font);
     font-size:60px;
 }
-.btn{
-
-  text-align:center;
- 
-    width: 80%;
-    display: inline-block;
-  background: transparent;
- color:var(--main-color);
-  border: 1px solid var(--main-color);
-  border-radius: 50px;
-  max-width: 350px;
-  min-width: 140px;
- padding:10px 20px; 
-  margin: 0.4rem 0;
-  position: relative;
-  overflow: hidden;
-  z-index: 700;
-  font-weight: 600;
-  cursor: pointer;
-  &::after {
-    
-    content: "";
-    position: absolute;
-    display: block;
-    bottom: 0;
-    
-    left: -5px;
-    background: var(--main-color);
-    width: 110%;
-    height: 0%;
-    z-index: -1;
-    transition: 0.8s ease;
-    
-    
-  }
-  &:hover{
-      color:var(--white);
-  }
-
-  &:hover::after {
-   
-    height: 120%;
-  }
-}
 
 
 
@@ -134,7 +95,8 @@ const Home = ()  => {
                          unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                          
                  </div>
-                 <div>  <a href="#" className="btn"> Our Menu</a></div>
+                 <Button>            <div>  <a href="#" className="btn"> Our Menu</a></div></Button>
+      
                
                  </div>
              </div>
