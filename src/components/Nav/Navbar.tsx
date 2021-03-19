@@ -5,7 +5,7 @@ import Burger from "./Burger";
 const Nav = styled.nav`
   width: 100%;
   background: var(--dark);
-  border-bottom: 5px solid var(--main-color);
+  border-bottom: 3px solid var(--main-color);
 
   .logo {
     background: var(--dark);
@@ -21,7 +21,7 @@ const Nav = styled.nav`
   .Logo {
     text-transform: capitalize;
     font-size: 28px;
-    font-family: "Dancing Script", cursive;
+    //font-family: "Dancing Script", cursive;
     margin: 20px 30px;
     display: flex;
     color: var(--main-color);

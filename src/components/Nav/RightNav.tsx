@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Ul = styled.ul<OpenPropsP>`
+
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
@@ -19,6 +20,8 @@ const Ul = styled.ul<OpenPropsP>`
 
     }
   @media (max-width: 768px) {
+    text-align:center;
+    z-index: 3;
     flex-flow: column nowrap;
     background-color: var(--dark);
     position: fixed;
@@ -27,6 +30,8 @@ const Ul = styled.ul<OpenPropsP>`
     right: 0;
     height: 100vh;
     width: 300px;
+
+	
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     li a {
@@ -36,7 +41,11 @@ const Ul = styled.ul<OpenPropsP>`
       color: var(--main-color);
 
     }
+   
   }
+  .icons{
+      display:none;
+    }
 `;
 
 interface OpenPropsP {
@@ -47,10 +56,11 @@ const RightNav = ({ open }:any)  => {
   return (
     <Ul open={open}>
       <li> <a href="#home">Home</a></li>
-      <li> <a href="#about">About Us</a> </li>
-      <li> <a href="#contact"> Contact Us</a> </li>
+      <li> <a href="#about">About</a> </li>
+      <li> <a href="#menu"> Menu</a>  </li>
       <li> <a href="#testimonials"> testimonials</a> </li>
-      <li> <a href="#oi"> oi</a>  </li>
+      <li> <a href="#contact"> Contact </a> </li>
+      <div className='icons'>Ícones feitos por <a href="http://www.creaticca.com/" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
     </Ul>
   )
 }

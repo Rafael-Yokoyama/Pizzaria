@@ -51,6 +51,9 @@ a{
   flex-wrap:wrap;
  
 }
+.min-vh-100{
+min-height: 100vh;
+}
 .jcsb{
   justify-content:space-between;
 }
@@ -61,4 +64,18 @@ a{
 img {
   vertical-align: middle;
   max-width: 100%;
+}
+
+h1{
+  font-weight: 700;
+  color:var(--white);
+}
+h2{
+  font-weight: 600;
+  color:var(--white);
+}
+h3,h4,h5,h6{
+  font-weight: 500;
+  color:var(--white);
+
 }
