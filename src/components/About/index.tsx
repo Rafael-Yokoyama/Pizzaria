@@ -11,7 +11,7 @@ padding:40px;
     width:100%;
     text-align: center;
     padding: 0 15px;
-    font-size:30px;
+    font-size:34px;
 }
 .title::before{
     content: attr(data-title);
@@ -94,7 +94,7 @@ figcaption{
   bottom:100px;
   font-size: 20px;
   margin: 0 20px;
-  color:white;
+  color:var(--main-color);
   
 }
 
