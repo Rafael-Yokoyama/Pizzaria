@@ -1,5 +1,6 @@
-import React from "react";
+
 import styled from "styled-components";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import img from "../../img/pizza.png";
 import { Button } from "../Button";
@@ -61,6 +62,9 @@ const Container = styled.div`
     font-family: var(--cursive-font);
     font-size: 60px;
   }
+  h1 span {
+    color: var(--main-color);
+  }
 `;
 
 const Home = () => {
@@ -70,23 +74,33 @@ const Home = () => {
         <div className="container ">
           <div className="row min-vh-100 alc ">
             <div className="home-text">
-              <h1> PizzariaYo Restaurant</h1>
+            <ScrollAnimation animateIn='bounceInRight'
+  animateOut='bounceOutLeft'>
+ 
+              <h1> Pizzaria<span>Yo</span> Loren </h1>
+            
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book
               </p>
+              </ScrollAnimation>
             </div>
+            <ScrollAnimation animateIn='flipInY'
+  animateOut='flipOutY'>
             <Button>
               {" "}
               <div>
                 {" "}
+             
                 <a href="#" className="btn">
                   {" "}
                   Our Menu
                 </a>
               </div>
             </Button>
+            </ScrollAnimation>
+         
           </div>
         </div>
       </div>

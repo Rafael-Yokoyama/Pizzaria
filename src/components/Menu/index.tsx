@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 import styled from "styled-components";
 import img from "../../img/8.jpg";
 import img1 from "../../img/pizza1.png";
@@ -78,6 +79,7 @@ const Container = styled.div`
   }
   .menu-overflow {
     width: 100%;
+    overflow-x: hidden;
     overflow-y: auto;
     height: 350px;
     &::-webkit-scrollbar {
@@ -102,6 +104,9 @@ const Menu = () => {
         </div>
         <div className="row">
           <div className="menu-overflow">
+          <ScrollAnimation animateIn='flipInY'
+  animateOut='flipOutY'>
+
             <div className="menu">
               <div className="menu-item">
                 <img src={img1}></img>
@@ -144,7 +149,10 @@ const Menu = () => {
               </div>
               <div className="menu-price">$35.00</div>
             </div>
+            </ScrollAnimation>
           </div>
+        
+
         </div>
         <div className="row "></div>
       </div>

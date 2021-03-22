@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import styled from 'styled-components';
 import AllTeam from './alllTeam';
 
@@ -148,12 +149,16 @@ const Differentials = ()  => {
          <div className="container ">
              
              <div className="row top-differentials' ">
+  
+                 
               
              <div  data-title= ' Differentials' className="title">
-                 
+      
               </div>
                <div className="wifi"> 
                <div className="divimg">
+               <ScrollAnimation animateIn='flipInY'
+  animateOut='flipOutY'>
               <a className="bloquinho" target="_blank">
                 <span>
                 <img src=""/>
@@ -161,12 +166,15 @@ const Differentials = ()  => {
                 <figcaption> Free wifi </figcaption>
               
               </a>
+              </ScrollAnimation>
               </div>
                    
                    
                    </div>
                <div className="car">
                <div className="divida">
+               <ScrollAnimation animateIn='flipInY'
+  animateOut='flipOutY'>
               <a className="bloquinho" target="_blank">
                 <span>
                 <img src=""/>
@@ -174,11 +182,14 @@ const Differentials = ()  => {
                 <figcaption> Free Parking </figcaption>
               
               </a>
+              </ScrollAnimation>
               </div>
                </div>
                 <div className="tv">
                 
                   <div className="divimg">
+                  <ScrollAnimation animateIn='flipInY'
+  animateOut='flipOutY'>
               <a className="bloquinho" target="_blank">
                 <span>
                 <img src=""/>
@@ -186,9 +197,11 @@ const Differentials = ()  => {
                 <figcaption>Tv </figcaption>
               
               </a>
+              </ScrollAnimation>
               </div>
+            
                 </div>
-
+         
                
                  </div>
              </div>

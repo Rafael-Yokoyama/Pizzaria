@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -115,12 +116,16 @@ const About = () => {
       <div className="container">
         <div className="row padding">
           <div data-title="our story" className="title">
+            
             <h2>About</h2>
           </div>
         </div>
         <div className="row">
           <div className="text-about">
+          <ScrollAnimation animateIn='bounceInLeft'
+  animateOut='bounceOutRight'>
             <h3> our story </h3>
+        
             <p>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
@@ -136,6 +141,7 @@ const About = () => {
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book
             </p>
+            </ScrollAnimation>
             <div className="divimg">
               <a className="bloquinho" target="_blank">
                 <span>
@@ -155,6 +161,8 @@ const About = () => {
               </a>
             </div>
             <div>
+            <ScrollAnimation animateIn='bounceInRight'
+  animateOut='bounceOutLeft'>
               <p>
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
@@ -170,6 +178,7 @@ const About = () => {
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book
               </p>
+              </ScrollAnimation>
             </div>
           </div>
         </div>

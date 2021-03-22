@@ -5,17 +5,18 @@ import styled from 'styled-components';
 
 export const  Button = styled.div `
 .btn{
-
+  padding:40px;
+display: flex;
 text-align:center;
+justify-content:center;
 margin: 30px auto;
-
   width: 100%;
-  display: inline-block;
+
 background: transparent;
 color:var(--main-color);
 border: 1px solid var(--main-color);
 border-radius: 50px;
-max-width: 350px;
+max-width: 200px;
 min-width: 140px;
 padding:10px 20px; 
 

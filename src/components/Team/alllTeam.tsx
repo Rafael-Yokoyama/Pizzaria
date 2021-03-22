@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import styled from 'styled-components';
 import chef from '../../img/chef.png'
 
@@ -83,29 +84,38 @@ const AllTeam = ()  => {
                  </div>
                  <div className="row">
                      <div className="team-all">
+                     <ScrollAnimation animateIn='bounceInLeft'
+  animateOut='bounceOutRight'>
                          <img src={chef}  />
                              <div className="text-team">
                                  <h2>Lorem Ipsum</h2>
                                  <p>ipsum chef</p>
                              </div>
+                             </ScrollAnimation>
 
 
                      </div>
                      <div className="team-all">
+                     <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeOut'>
                          <img src={chef}  />
                              <div className="text-team">
                                  <h2>Lorem Ipsum</h2>
                                  <p>ipsum chef</p>
                              </div>
+                             </ScrollAnimation>
 
 
-                     </div> <div className="team-all">
+                     </div> 
+                     <div className="team-all">
+                     <ScrollAnimation animateIn='bounceInRight'
+  animateOut='bounceOutLeft'>
                          <img src={chef}  />
                              <div className="text-team">
                                  <h2>Lorem Ipsum</h2>
                                  <p>ipsum chef</p>
                              </div>
-
+                             </ScrollAnimation>
 
                      </div>
                      
