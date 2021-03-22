@@ -8,6 +8,10 @@ const Container = styled.div`
 
 background:var(--main-color);
 height:500px;
+@media (max-width: 600px){
+  height:350px;
+
+}
 .title {
     width:100%;
     text-align: center;
@@ -40,8 +44,16 @@ height:500px;
    
     width:30%;
     text-align:center;
-
+    @media (max-width: 600px){
+     border:none;
+  
+    width:40%;
+    height:10px;
+    
+    }
+   
 }
+
 .bloquinho {
 
 object-fit: cover;
@@ -56,7 +68,9 @@ max-width:350px;
 
 height:100%;
 width:100%;
-
+@media (max-width: 600px){
+  height:0%;
+}
 
 }
 
@@ -81,7 +95,10 @@ bottom:100px;
 font-size: 28px;
 margin: 0 20px;
 color:var(--white);
-
+@media (max-width: 600px){
+  text-align:center;
+  margin :0 auto;
+}
 
 }
 

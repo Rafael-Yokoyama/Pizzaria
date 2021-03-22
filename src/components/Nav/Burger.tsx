@@ -8,7 +8,7 @@ const StyledBurger = styled.div<OpenPropsP>`
   position: fixed;
   top: 5px;
   right: 20px;
-  z-index: 20; 
+  z-index: 20;
   display: none;
   @media (max-width: 768px) {
     display: flex;
@@ -20,19 +20,22 @@ const StyledBurger = styled.div<OpenPropsP>`
     align-items: center;
   }
   .pizza {
-      transform-origin: center;
-      animation-duration: 3s;
-      animation-timing-function: linear;
-      animation-delay: 0s;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-name: pizza-animation; 
-}
-@keyframes pizza-animation {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
+    transform-origin: center;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pizza-animation;
+  }
+  @keyframes pizza-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 `;
 
 interface OpenPropsP {
