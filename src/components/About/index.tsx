@@ -16,7 +16,7 @@ padding:40px;
 .title::before{
     content: attr(data-title);
     display:block;
-    font-size:28px;
+    font-size:20px;
     font-weight:400px;
     color:var(--main-color);
     font-family:var(--cursive-font);

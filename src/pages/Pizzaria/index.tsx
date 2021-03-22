@@ -4,6 +4,7 @@ import Home from "../../components/Home/home"
 import Menu from "../../components/Menu"
 
 import Navbar from "../../components/Nav/Navbar"
+import Differentials from "../../components/Team/differentials"
 
  const Pizzaria = ()=>{
      return (
@@ -12,6 +13,7 @@ import Navbar from "../../components/Nav/Navbar"
         <Home/>
         <About/>
         <Menu/>
+        <Differentials/>
         </>
      )
  }

@@ -58,7 +58,7 @@ const RightNav = ({ open }:any)  => {
       <li> <a href="#home">Home</a></li>
       <li> <a href="#about">About</a> </li>
       <li> <a href="#menu"> Menu</a>  </li>
-      <li> <a href="#testimonials"> testimonials</a> </li>
+      <li> <a href="#team">team</a> </li>
       <li> <a href="#contact"> Contact </a> </li>
       <div className='icons'>Ícones feitos por <a href="http://www.creaticca.com/" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
     </Ul>
