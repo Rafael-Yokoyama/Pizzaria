@@ -104,55 +104,51 @@ const Menu = () => {
         </div>
         <div className="row">
           <div className="menu-overflow">
-          <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'>
-
-            <div className="menu">
-              <div className="menu-item">
-                <img src={img1}></img>
-                <h3>Pizza Lorem </h3>
+            <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
+              <div className="menu">
+                <div className="menu-item">
+                  <img src={img1}></img>
+                  <h3>Pizza Lorem </h3>
+                </div>
+                <div className="menu-price">$40.00</div>
               </div>
-              <div className="menu-price">$40.00</div>
-            </div>
-            <div className="menu">
-              <div className="menu-item">
-                <img src={img2}></img>
-                <h3>Pizza Lorem </h3>
+              <div className="menu">
+                <div className="menu-item">
+                  <img src={img2}></img>
+                  <h3>Pizza Lorem </h3>
+                </div>
+                <div className="menu-price">$45.00</div>
               </div>
-              <div className="menu-price">$45.00</div>
-            </div>
-            <div className="menu">
-              <div className="menu-item">
-                <img src={img3}></img>
-                <h3>Pizza Lorem </h3>
+              <div className="menu">
+                <div className="menu-item">
+                  <img src={img3}></img>
+                  <h3>Pizza Lorem </h3>
+                </div>
+                <div className="menu-price">$35.00</div>
               </div>
-              <div className="menu-price">$35.00</div>
-            </div>
-            <div className="menu">
-              <div className="menu-item">
-                <img src={img1}></img>
-                <h3>Pizza Lorem </h3>
+              <div className="menu">
+                <div className="menu-item">
+                  <img src={img1}></img>
+                  <h3>Pizza Lorem </h3>
+                </div>
+                <div className="menu-price">$40.00</div>
               </div>
-              <div className="menu-price">$40.00</div>
-            </div>
-            <div className="menu">
-              <div className="menu-item">
-                <img src={img2}></img>
-                <h3>Pizza Lorem </h3>
+              <div className="menu">
+                <div className="menu-item">
+                  <img src={img2}></img>
+                  <h3>Pizza Lorem </h3>
+                </div>
+                <div className="menu-price">$45.00</div>
               </div>
-              <div className="menu-price">$45.00</div>
-            </div>
-            <div className="menu">
-              <div className="menu-item">
-                <img src={img3}></img>
-                <h3>Pizza Lorem </h3>
+              <div className="menu">
+                <div className="menu-item">
+                  <img src={img3}></img>
+                  <h3>Pizza Lorem </h3>
+                </div>
+                <div className="menu-price">$35.00</div>
               </div>
-              <div className="menu-price">$35.00</div>
-            </div>
             </ScrollAnimation>
           </div>
-        
-
         </div>
         <div className="row "></div>
       </div>

@@ -1,6 +1,5 @@
-
 import styled from "styled-components";
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from "react-animate-on-scroll";
 
 import img from "../../img/pizza.png";
 import { Button } from "../Button";
@@ -74,33 +73,34 @@ const Home = () => {
         <div className="container ">
           <div className="row min-vh-100 alc ">
             <div className="home-text">
-            <ScrollAnimation animateIn='bounceInRight'
-  animateOut='bounceOutLeft'>
- 
-              <h1> Pizzaria<span>Yo</span> Loren </h1>
-            
-              <p>
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book
-              </p>
+              <ScrollAnimation
+                animateIn="bounceInRight"
+                animateOut="bounceOutLeft"
+              >
+                <h1>
+                  {" "}
+                  Pizzaria<span>Yo</span> Loren{" "}
+                </h1>
+
+                <p>
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type specimen book
+                </p>
               </ScrollAnimation>
             </div>
-            <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'>
-            <Button>
-              {" "}
-              <div>
+            <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
+              <Button>
                 {" "}
-             
-                <a href="#menu" className="btn">
+                <div>
                   {" "}
-                  Our Menu
-                </a>
-              </div>
-            </Button>
+                  <a href="#menu" className="btn">
+                    {" "}
+                    Our Menu
+                  </a>
+                </div>
+              </Button>
             </ScrollAnimation>
-         
           </div>
         </div>
       </div>

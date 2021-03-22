@@ -77,70 +77,63 @@ const Footer = styled.footer`
 const Contact = () => {
   return (
     <Footer className="footer" id="contact">
-   
       <div className="container ">
- 
         <div className="row ">
           <div className="footer-text">
-          <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'>
-            <h3>our location</h3>
-            <p>
-              loren loren,loren 12
-              <br /> New lorem 999
-            </p>
+            <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
+              <h3>our location</h3>
+              <p>
+                loren loren,loren 12
+                <br /> New lorem 999
+              </p>
             </ScrollAnimation>
           </div>
           <div className="footer-text">
-          <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'>
-            <h3> openning</h3>
-            <p>
-              Wednesday
-              <br /> 7:00 pm - 11:00 pm
-            </p>
+            <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
+              <h3> openning</h3>
+              <p>
+                Wednesday
+                <br /> 7:00 pm - 11:00 pm
+              </p>
             </ScrollAnimation>
           </div>
           <div className="footer-text">
-          <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'>
-            <h3> Delivery</h3>
-            <p>
-              0000-0000
-              <br /> 11:00 pm
-            </p>
+            <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
+              <h3> Delivery</h3>
+              <p>
+                0000-0000
+                <br /> 11:00 pm
+              </p>
             </ScrollAnimation>
           </div>
 
           <div className="footer-text">
-          <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'>
-            <h3> Contact</h3>
-            <p>9999-999</p>
-            <p>loren@gmail.com</p>
-            <div className="social">
-              <p>
-                {" "}
-                <FaFacebookSquare size="25" />
-              </p>
-              <p>
-                {" "}
-                <FaGithubSquare size="25" />
-              </p>
-              <p>
-                {" "}
-                <FaInstagram size="25" />
-              </p>
-
-              <p>
-                {" "}
-                <a href="#home">
+            <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
+              <h3> Contact</h3>
+              <p>9999-999</p>
+              <p>loren@gmail.com</p>
+              <div className="social">
+                <p>
                   {" "}
-                  <FaArrowAltCircleUp size="25" />
-                </a>
-              </p>
-        
-            </div>
+                  <FaFacebookSquare size="25" />
+                </p>
+                <p>
+                  {" "}
+                  <FaGithubSquare size="25" />
+                </p>
+                <p>
+                  {" "}
+                  <FaInstagram size="25" />
+                </p>
+
+                <p>
+                  {" "}
+                  <a href="#home">
+                    {" "}
+                    <FaArrowAltCircleUp size="25" />
+                  </a>
+                </p>
+              </div>
             </ScrollAnimation>
           </div>
 
@@ -158,9 +151,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-      
       </div>
-
     </Footer>
   );
 };

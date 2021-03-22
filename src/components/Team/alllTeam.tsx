@@ -1,131 +1,105 @@
-import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
-import styled from 'styled-components';
-import chef from '../../img/chef.png'
-
-
+import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
+import styled from "styled-components";
+import chef from "../../img/chef.png";
 
 const Container = styled.div`
+  background: var(--dark-light);
+  padding: 80px 0;
 
-background:var(--dark-light);
-padding:80px 0;
-
-.title {
-    width:100%;
+  .title {
+    width: 100%;
     text-align: center;
     padding: 0 15px;
-    font-size:34px;
-}
-.title::before{
+    font-size: 34px;
+  }
+  .title::before {
     content: attr(data-title);
-    padding-top:40px;
-    display:block;
-    font-size:22px;
-  
-    font-weight:400px;
-    color:var(--main-color);
-    font-family:var(--cursive-font);
-}
-img{
-    
-    max-width:300px;
-}
-.team-all{
-    border:1px solid #fff7;
+    padding-top: 40px;
+    display: block;
+    font-size: 22px;
+
+    font-weight: 400px;
+    color: var(--main-color);
+    font-family: var(--cursive-font);
+  }
+  img {
+    max-width: 300px;
+  }
+  .team-all {
+    border: 1px solid #fff7;
     background-color: var(--white-light);
-    text-align:center;
- margin-left: 20px;
-    margin :  20px auto;
-    border-radius:0 20px;
-}
-.text-team{
-    transition: all .5s ease;
-    cursor:pointer;
-    background:var(--dark);
-    border-radius:0 20px;
-}
-.text-team:hover{
-    transform:translatey(20px);
-    background-color:var(--main-color);
-
-
-}
-.text-team:hover p{
-    color:black;
-    font-weight:bold;
-
-}
-.text-team p {
-    color:var(--main-color)
-}
-
-
- 
+    text-align: center;
+    margin-left: 20px;
+    margin: 20px auto;
+    border-radius: 0 20px;
+  }
+  .text-team {
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background: var(--dark);
+    border-radius: 0 20px;
+  }
+  .text-team:hover {
+    transform: translatey(20px);
+    background-color: var(--main-color);
+  }
+  .text-team:hover p {
+    color: black;
+    font-weight: bold;
+  }
+  .text-team p {
+    color: var(--main-color);
+  }
 `;
 
-
-const AllTeam = ()  => {
-    return (
-     <Container  id="team">
-    
-         <div className="container ">
-             
-             <div className="row ">
-              
-             <div  data-title= '   Ours Chefs ' className="title">
-             <h2>
-                  Team
-                  </h2>
+const AllTeam = () => {
+  return (
+    <Container id="team">
+      <div className="container ">
+        <div className="row ">
+          <div data-title="   Ours Chefs " className="title">
+            <h2>Team</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="team-all">
+            <ScrollAnimation
+              animateIn="bounceInLeft"
+              animateOut="bounceOutRight"
+            >
+              <img src={chef} />
+              <div className="text-team">
+                <h2>Lorem Ipsum</h2>
+                <p>ipsum chef</p>
               </div>
-           
-         
+            </ScrollAnimation>
+          </div>
+          <div className="team-all">
+            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+              <img src={chef} />
+              <div className="text-team">
+                <h2>Lorem Ipsum</h2>
+                <p>ipsum chef</p>
+              </div>
+            </ScrollAnimation>
+          </div>
+          <div className="team-all">
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+            >
+              <img src={chef} />
+              <div className="text-team">
+                <h2>Lorem Ipsum</h2>
+                <p>ipsum chef</p>
+              </div>
+            </ScrollAnimation>
+          </div>
+        </div>
+      </div>
+    </Container>
+  );
+};
 
-               
-                 </div>
-                 <div className="row">
-                     <div className="team-all">
-                     <ScrollAnimation animateIn='bounceInLeft'
-  animateOut='bounceOutRight'>
-                         <img src={chef}  />
-                             <div className="text-team">
-                                 <h2>Lorem Ipsum</h2>
-                                 <p>ipsum chef</p>
-                             </div>
-                             </ScrollAnimation>
-
-
-                     </div>
-                     <div className="team-all">
-                     <ScrollAnimation animateIn='fadeIn'
-  animateOut='fadeOut'>
-                         <img src={chef}  />
-                             <div className="text-team">
-                                 <h2>Lorem Ipsum</h2>
-                                 <p>ipsum chef</p>
-                             </div>
-                             </ScrollAnimation>
-
-
-                     </div> 
-                     <div className="team-all">
-                     <ScrollAnimation animateIn='bounceInRight'
-  animateOut='bounceOutLeft'>
-                         <img src={chef}  />
-                             <div className="text-team">
-                                 <h2>Lorem Ipsum</h2>
-                                 <p>ipsum chef</p>
-                             </div>
-                             </ScrollAnimation>
-
-                     </div>
-                     
-                 </div>
-             </div>
-
-   
-
-     </Container>
-    )
-  }
-  
-  export default AllTeam
+export default AllTeam;
