@@ -1,46 +1,71 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+  
+  <p align="center">
+<img  width= "80px" src="https://github.com/Rafael-Yokoyama/Pizzaria/blob/main/public/pizza.svg" >
+  </p>
+  
+  <h1 align="center">
+    Pizzaria YO
+  </h1>
 
-### `yarn start`
+<h5 align="center">
+Fictional website about pizza
+ 
+  </h5>
+  
+  
+## 🖥 Antevisão 
+  
+![Badge](https://img.shields.io/static/v1?label=DEV&message=Yokoyama&color=ee9c0f&style=flat&logo=)
+![Badge](https://img.shields.io/static/v1?label=Code&message=React&color=ffff00&style=flat&logo=)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+ ![](https://github.com/Rafael-Yokoyama/Pizzaria/blob/main/src/img/gif.gif)
+ 
+ <a href=" https://pizzariayo.netlify.app/"> WebSite </a> 
+ 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
+ ## 🧐 Enjoy
+ 
+   > Clone the repository ;]
+ 
+        $ https://github.com/Rafael-Yokoyama/Pizzaria.git
+        $ cd  Pizzaria
+        
+ 
+        
+        
+ 
+ #### Running
+  > Install dependencies
+    
+       $ yarn ou npm
+       
+       
+  > Start the Project
+  
+       $  yarn start ou npm start 
+       
+       
 
-### `yarn build`
+## 💻 Technologies used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ * Visual Studio Code (Code editor);
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* HTML;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Typescript;
 
-### `yarn eject`
+* CSS;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* React;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença 📝 
+ 
+This project is under an MIT license. <a  href="https://github.com/Rafael-Yokoyama/Pizzaria/blob/main/LICENSE"> Click  </a> to read more 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was developed with 💛 by <a href="https://github.com/Rafael-Yokoyama"> @RafaelYokoyama </a> 
