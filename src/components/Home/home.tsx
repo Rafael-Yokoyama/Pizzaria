@@ -93,7 +93,7 @@ const Home = () => {
               <div>
                 {" "}
              
-                <a href="#" className="btn">
+                <a href="#menu" className="btn">
                   {" "}
                   Our Menu
                 </a>
