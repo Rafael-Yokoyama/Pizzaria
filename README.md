@@ -25,7 +25,7 @@ Fictional website about pizza
 
  ![](https://github.com/Rafael-Yokoyama/Pizzaria/blob/main/src/img/gif.gif)
  
- <a href=" https://pizzariayo.netlify.app/"> WebSite </a> 
+ <a href="https://pizzariayo.netlify.app/"> WebSite </a> 
  
 
  
